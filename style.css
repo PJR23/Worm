@@ -1,0 +1,73 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    background: black;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+canvas {
+    width: 403px;
+    height: 403px;
+    background-image: url('./bg_sprite.jpg');
+    border: 1px solid white;
+}
+
+button {
+    height: 50px;
+    background-color: whitesmoke;
+    border-radius: 8px;
+    font-size: 15px;
+    color: black;
+    border: transparent;
+    cursor: pointer;
+    transition: all 2s ease 0s;
+    margin: 2px;
+    width: 120px;
+}
+  
+button:hover {
+    background-color: #7c7c7c;
+    color: black;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    margin-top: 5px;
+}
+
+h2 {
+    color: whitesmoke;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+p {
+    color: white;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.ro {
+    left: 244px;
+    top: 0;
+    position: fixed;
+}
+
+.mo {
+    left: 122px;
+    top: 0;
+    position: fixed;
+}
+
+.lo {
+    left: 0;
+    top: 0;
+    position: fixed;
+}
+
